@@ -1,3 +1,9 @@
 spring:
   application:
     name: module1introduction
+
+feature:
+  notification:
+    type: sms
+
+debug: true
