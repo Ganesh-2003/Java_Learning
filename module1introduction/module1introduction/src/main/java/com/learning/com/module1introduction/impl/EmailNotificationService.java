@@ -10,11 +10,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Qualifier("emailNotif")
-@ConditionalOnProperty(
-        prefix = "feature.notification",
-        name = "type",
-        havingValue = "email"
-)
+//@ConditionalOnProperty(
+//        prefix = "feature.notification",
+//        name = "type",
+//        havingValue = "email"
+//)
 public class EmailNotificationService implements NotificationService {
 
     @Override

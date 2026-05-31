@@ -6,4 +6,4 @@ feature:
   notification:
     type: sms
 
-debug: true
+debug: false
